@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block title %}
+
+{% endblock %}
+
+{% block content %}
+
+<div class="container" style="margin:auto;" >
+  
+  <div class="row">
+    <div class="col-md-4 ">
+        <img src="{{home_detail.Image.url}}" style="max-width: 800px;,
+            max-height: 300px;"class="img-fluid" alt="...">
+    </div>
+    <div class="col-md-8">
+        <h2>Overview</h2>
+        <p>{{home_detail.Description}}</p>
+    </div>
+</div>
+<div class="container mt-5">
+  <div class="row" style="line-height: 1;">
+
+      <div class="col-md-4 info-section">
+          <h2>Information and Features</h2>
+          <p>People Allowed in one room: {{home_detail.Number_Of_People_Allowed}}</p>
+          <p>Rent per person for stay is: {{home_detail.Rent}}</p>
+          <p>Main gate will close at: {{home_detail.Gate_closing_time}} pm</p>
+          <p>{{home_detail.Feature1}}</p>
+          <p>{{home_detail.Feature2}}</p>
+      </div>
+
+      
+      <div class="col-md-4 info-section">
+          <h2>Address</h2>
+          <p>{{home_detail.Street1}}</p>
+          <p>{{home_detail.Street2}}</p>
+          <p>{{home_detail.City}}</p>
+          <p>{{home_detail.State}}</p>
+          <p>{{home_detail.Pincode}}</p>
+      </div>
+
+
+      <div class="col-md-4 contact-section">
+          <h2>Contact Via</h2>
+          <p>Owner: {{home_detail.First_Name}} {{home_detail.Last_Name}}</p>
+          <p>Mobile: {{home_detail.Contact}}</p>
+          <p>Email: {{home_detail.Email}}</p>
+          <p>You can visit {{home_detail.Visiting_day}} between {{home_detail.Visiting_Start}} and {{home_detail.Visiting_End}}</p>
+      </div>
+  </div>
+</div>
+
+   
+
+  </div>
+{% endblock %}

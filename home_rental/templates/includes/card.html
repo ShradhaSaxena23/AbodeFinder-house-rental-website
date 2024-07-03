@@ -1,0 +1,11 @@
+
+<div class="col-sm-6 col-md-4 col-lg-3">
+    <div class="card" >
+        <img src="{{data.Image.url}}" class="card-img-top img-fluid" style="max-height: 200px; object-fit: cover;" alt="image">
+        <div class="card-body">
+          <h5 class="card-title">Rs {{data.Rent}}   </h5>
+          <p class="card-text">{{data.Street1}} {{data.Street2}} {{data.City}} {{data.State}} {{data.Pincode}}</p>
+          <a href="{% url 'detail_page' data.slug %}" class="btn btn-primary">More Details</a>
+        </div>
+      </div>
+</div>

@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+Login
+{% endblock %}
+
+{% block content %}
+<div class="container" style="max-width: 500px; margin-top: 50px; border: 2px solid #000; padding: 20px; border-radius: 10px; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);">
+    <h1 class="text-center mb-4">Login</h1>
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <div class="form-group">
+            <button type="submit" class="btn btn-block" style="background-color: #000; color: #fff; border: none;">Login</button>
+        </div>
+        <div class="text-center">
+            <a href="{% url 'signin_page' %}" style="color: #000; text-decoration: none;">Don't have an account? Create one</a>
+        </div>
+    </form>
+</div>
+{% endblock %}
+
