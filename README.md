@@ -25,21 +25,18 @@ To get started with AbodeFinder, follow these steps:
 
 1. **Clone the repository**:
    \`\`\`bash
-   git clone https://github.com/yourusername/abodefinder.git
-   cd abodefinder
+   git clone [https://github.com/yourusername/abodefinder.git](https://github.com/ShradhaSaxena23/AbodeFinder-house-rental-website.git)
+   cd AbodeFinder
    \`\`\`
 
-2. **Install dependencies**:
-   \`\`\`bash
-   pip install -r requirements.txt
-   \`\`\`
 
-3. **Run migrations**:
+
+2. **Run migrations**:
    \`\`\`bash
    python manage.py migrate
    \`\`\`
 
-4. **Start the development server**:
+3. **Start the development server**:
    \`\`\`bash
    python manage.py runserver
    \`\`\`
@@ -53,9 +50,9 @@ To get started with AbodeFinder, follow these steps:
 
 ## Technologies
 
-- **Frontend**: React.js
-- **Backend**: Django, Django Rest Framework
-- **Database**: PostgreSQL
+- **Frontend**: Bootstrap
+- **Backend**: Django
+- **Database**: SQLite
 - **Authentication**: Django Authentication System
 
 ## Contributing
@@ -77,5 +74,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any questions or feedback, feel free to reach out:
 
-- **Email**: yourname@example.com
-- **GitHub**: [yourusername](https://github.com/yourusername)
+- **Email**: shradhaofficial22@gmail.com
+- **GitHub**: [ShradhaSaxena23](https://github.com/ShradhaSaxena23)
