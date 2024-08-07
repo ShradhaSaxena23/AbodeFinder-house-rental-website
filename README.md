@@ -8,6 +8,7 @@ Welcome to **AbodeFinder**, a platform designed to assist students, employees, a
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies](#technologies)
+- [Deployment](#deployment)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -56,7 +57,8 @@ To get started with AbodeFinder, follow these steps:
 - **Authentication**: Django Authentication System
 
 ## Deployment 
-This site is available here [AbodeFinder]([https://pages.github.com/](https://shradha.pythonanywhere.com/)).
+This site is available here: [AbodeFinder](https://shradha.pythonanywhere.com/)
+
 
 ## Contributing
 
